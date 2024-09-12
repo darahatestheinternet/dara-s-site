@@ -3,7 +3,7 @@
 
 body {
   font-family: 'Inter', arial;
-  background-color:#171717;
+  background-color:#050505;
   height:720px;
   color: #ffbad2;
 }
@@ -41,4 +41,9 @@ footer {
   position: absolute;
   width: 100%;
   bottom: 0px;
+}
+
+/*about page*/
+.container {
+  max-width: 500px;
 }
