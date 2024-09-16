@@ -1,6 +1,7 @@
 /*importing font from google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+/*main css*/
 body {
   font-family: 'Inter', arial;
   background-color:#050505;
@@ -13,6 +14,7 @@ header nav ul {
   display: flex;
   justify-content: start;
   align-items:center;
+  font-size: large;
 }
 
 header nav ul li {
@@ -22,7 +24,6 @@ header nav ul li {
   margin-left: 20px;
 }
 
-/*learn to center nav bar properly*/
 header nav ul li:nth-child(1) {
   margin-left: 0;
 }
@@ -41,6 +42,34 @@ footer {
   position: absolute;
   width: 100%;
   bottom: 0px;
+}
+
+/*recent videos*/
+
+#video1text {
+  margin:0px;
+  margin-left: 100px;
+  text-decoration: underline;
+}
+
+#video2text {
+  margin:0px;
+  text-decoration: underline;
+  position:relative;
+  left: 390px;
+  bottom: 23px;
+}
+
+#video2 {
+  margin-left: 20px;
+}
+
+.videoborder {
+  border: 3px solid #ffbad2;
+}
+
+#wip {
+  padding-top: 30px;
 }
 
 /*about page*/
