@@ -44,6 +44,18 @@ footer {
   bottom: 0px;
 }
 
+/*home page*/
+
+#recent {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container {
+  max-width: 500px;
+  padding: 5px;
+}
+
 /*recent videos*/
 
 #video1text {
@@ -70,9 +82,4 @@ footer {
 
 #wip {
   padding-top: 30px;
-}
-
-/*about page*/
-.container {
-  max-width: 500px;
 }
