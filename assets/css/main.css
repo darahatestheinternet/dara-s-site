@@ -4,29 +4,18 @@
 /*main css*/
 body {
   font-family: 'Inter', arial;
-  background-color:#050505;
-  height:720px;
+  background-color: #231826;
   overflow-x: hidden;
   color: #ffbad2;
 }
 
-
-header nav ul {
-  display: flex;
-  justify-content: start;
-  align-items:center;
-  font-size: large;
-}
-
 header nav ul li {
   list-style: none;
-  text-decoration: underline;
-  margin-left: 20px;
-  margin-left: 20px;
-}
+  font-size: larger;
 
-header nav ul li:nth-child(1) {
-  margin-left: 0;
+  margin-bottom: 15px;
+  padding-top: 15px;
+
 }
 
 header nav ul li a {
@@ -39,47 +28,33 @@ header nav ul li a:hover {
 }
 
 footer {
-  text-align: center;
   position: absolute;
+  margin-left: 35px;
   width: 100%;
   bottom: 0px;
 }
 
-/*home page*/
-
-#recent {
-  padding-top: 10px;
-  padding-bottom: 10px;
+#navcontainer {
+  position: absolute;
+  top:0;
+  bottom:0;
+  height: 100%;
+  left:0;
+  background-color: #050505;
+  width:175px;
 }
+
+/*testing*/
 
 .container {
-  max-width: 500px;
-  padding: 5px;
+  padding-left: 200px;
+  width: 500px;
 }
 
-/*recent videos*/
-
-#video1text {
-  margin-left: 95px;
-  text-decoration: underline;
+.blogp {
+  padding-left: 15px;
 }
 
-#video2text {
-  margin:0px;
-  text-decoration: underline;
-  position:relative;
-  left: 390px;
-  bottom: 23px;
-}
-
-#video2 {
-  margin-left: 20px;
-}
-
-.videoborder {
-  border: 3px solid #ffbad2;
-}
-
-#wip {
-  padding-top: 30px;
+#welcome {
+  padding-left: 200px;
 }
